@@ -56,7 +56,7 @@ const logitBiasValue = ref(0);
 const logitBiasPercentage = ref(50);
 const selectedModel = ref({ label: 'GPT-3.5 (ChatGPT)', value: 'chatgpt', maxTokens: 4096 });
 const modelsAvailable = ref([
-    { label: 'GPT-4 (32K)', value: 'gpt432k', maxTokens: 32768 },
+    { label: 'GPT-4 (32K)', value: 'gpt4-32k', maxTokens: 32768 },
     { label: 'GPT-4 (8K)', value: 'gpt4', maxTokens: 8192 },
     { label: 'GPT-3.5 (ChatGPT)', value: 'chatgpt', maxTokens: 4096 },
     { label: 'GPT-3 (Davinci)', value: 'davinci', maxTokens: 4096 },
