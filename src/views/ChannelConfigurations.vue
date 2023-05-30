@@ -56,13 +56,19 @@ const logitBiasValue = ref(0);
 const logitBiasPercentage = ref(50);
 const selectedModel = ref({ label: 'GPT-3.5 (ChatGPT)', value: 'chatgpt', maxTokens: 4096 });
 const modelsAvailable = ref([
-    { label: 'GPT-4 (32K)', value: 'gpt4-32k', maxTokens: 32768 },
-    { label: 'GPT-4 (8K)', value: 'gpt4', maxTokens: 8192 },
+    // { label: 'GPT-4 (32K)', value: 'gpt4-32k', maxTokens: 32768 },
+    // { label: 'GPT-4 (8K)', value: 'gpt4', maxTokens: 8192 },
     { label: 'GPT-3.5 (ChatGPT)', value: 'chatgpt', maxTokens: 4096 },
     { label: 'GPT-3 (Davinci)', value: 'davinci', maxTokens: 4096 },
     { label: 'GPT-3 (Babbage)', value: 'babbage', maxTokens: 2048 },
     { label: 'GPT-3 (Curie)', value: 'curie', maxTokens: 2048 },
-    { label: 'GPT-3 (Ada)', value: 'ada', maxTokens: 2048 }
+    { label: 'GPT-3 (Ada)', value: 'ada', maxTokens: 2048 },
+    { label: 'Cassandra Literary (6.9B)', value: 'cassandra6-9b', maxTokens: 2048 },
+    { label: 'Convo (6B)', value: 'convo-6b', maxTokens: 2048 },
+    { label: 'Fairseq (13B)', value: 'fairseq-13b', maxTokens: 2048 },
+    { label: 'GPT-J (6B)', value: 'gpt-j"', maxTokens: 2048 },
+    { label: 'GPT-Neo (2.7B)', value: 'pt-neo-2-7b', maxTokens: 2048 },
+    { label: 'GPT-NeoX (20B)', value: 'gpt-neo-20b', maxTokens: 2048 },
 ]);
 
 onBeforeMount(() => {
