@@ -68,7 +68,7 @@ const modelsAvailable = ref([
     { label: 'Fairseq (13B)', value: 'fairseq-13b', maxTokens: 2048 },
     { label: 'GPT-J (6B)', value: 'gpt-j"', maxTokens: 2048 },
     { label: 'GPT-Neo (2.7B)', value: 'pt-neo-2-7b', maxTokens: 2048 },
-    { label: 'GPT-NeoX (20B)', value: 'gpt-neo-20b', maxTokens: 2048 },
+    { label: 'GPT-NeoX (20B)', value: 'gpt-neox-20b', maxTokens: 2048 },
 ]);
 
 onBeforeMount(() => {
