@@ -63,7 +63,7 @@ const modelsAvailable = ref([
     { label: 'GPT-3 (Babbage)', value: 'babbage', maxTokens: 2048 },
     { label: 'GPT-3 (Curie)', value: 'curie', maxTokens: 2048 },
     { label: 'GPT-3 (Ada)', value: 'ada', maxTokens: 2048 },
-    { label: 'Cassandra Literary (6.9B)', value: 'cassandra6-9b', maxTokens: 2048 },
+    { label: 'Cassandra Literary (6.9B)', value: 'cassandra-6-9b', maxTokens: 2048 },
     { label: 'Convo (6B)', value: 'convo-6b', maxTokens: 2048 },
     { label: 'Fairseq (13B)', value: 'fairseq-13b', maxTokens: 2048 },
     { label: 'GPT-J (6B)', value: 'gpt-j"', maxTokens: 2048 },
